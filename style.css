@@ -1,5 +1,5 @@
 body {
-  background-image: url("image/WHITE_FLOWERS_BACKGROUND.png");
+  background-image: url("image/dandelions_background.png");
   background-repeat: no-repeat;
   background-position: 85px top;
   font-family: 'Arial', sans-serif;
@@ -18,19 +18,19 @@ p {
   margin-right: 0;
 }
 
-.CARD {
+.card {
   background-color: #F7F7FA;
   padding: 25px;
   width: 290px;
 }
 
-.PICS {
+.pics {
   margin-bottom: 25px;
 }
 
 
 
-.HEADLINE {
+.headline {
   display: flex;
   justify-content: center;
   margin-top: 220px;
@@ -42,7 +42,7 @@ p {
   color: #515076;
 } 
 
-.SET_CARDS {
+.set_cards {
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
@@ -55,7 +55,7 @@ p {
 }
 
 
-.PRODUCTS {
+.products {
   margin:0px;
   margin-bottom:5px;
   font-weight: 700;
@@ -63,7 +63,7 @@ p {
   line-height: 27px;
 }
 
-.DESCRIPTION {
+.description {
   margin-top: 10px;
   margin-bottom: 15px;
   color: #515076;
@@ -71,7 +71,7 @@ p {
   line-height: 18px;
 }
 
-.SKIN {
+.skin {
   margin-top: 5px;
   margin-bottom: 5px;
   color: #A5A3B9;
@@ -79,12 +79,12 @@ p {
   line-height: 24px;
 }
 
-.COMPOUND_1 {
+.compound_1 {
   margin-top: 15px;
   margin-right: 35px;
 }
 
-.COMPOUND_2 {
+.compound_2 {
   margin-top: 5px;
 }
 
