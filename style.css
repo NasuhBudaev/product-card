@@ -1,9 +1,13 @@
 body {
+  background-image: url("image/WHITE_FLOWERS_BACKGROUND.png");
+  background-repeat: no-repeat;
+  background-position: 85px top;
   font-family: 'Arial', sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #515076;
   font-weight: 400;
+  margin: 0px;
 }
 
 p {
@@ -14,30 +18,42 @@ p {
   margin-right: 0;
 }
 
-.KARTOCHKA {
+.CARD {
   background-color: #F7F7FA;
   padding: 25px;
+  width: 290px;
 }
 
 .PICS {
   margin-bottom: 25px;
 }
 
-.ZAGALOVOK {
+
+
+.HEADLINE {
+  display: flex;
+  justify-content: center;
+  margin-top: 220px;
+  margin-bottom: 110px;
+  font-weight: 700;
   font-size: 70px;
   line-height: 78px;
-  margin: 0;
   text-align: center;
   color: #515076;
 } 
 
-.NABOR_KARTOCHEK {
+.SET_CARDS {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin-left: 85px;
   margin-right: 85px;
   margin-bottom: 116px;
 }
+
 
 .PRODUCTS {
   margin:0px;
@@ -47,8 +63,15 @@ p {
   line-height: 27px;
 }
 
-.TIP_KOJI {
-  margin-left: 25px;
+.DESCRIPTION {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #515076;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.SKIN {
   margin-top: 5px;
   margin-bottom: 5px;
   color: #A5A3B9;
@@ -65,9 +88,14 @@ p {
   margin-top: 5px;
 }
 
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
 .price {
   margin-top: 25px;
-  margin-right: 161px;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -75,5 +103,6 @@ p {
 
 .price-value {
   font-weight: 400;
+  margin-right: 0px;
 }
 
