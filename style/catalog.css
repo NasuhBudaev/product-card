@@ -1,0 +1,11 @@
+.catalog {
+  background-image: url("/image/dandelions_background.png");
+  background-repeat: no-repeat;
+  background-position: 85px top;
+  font-family: 'Arial', sans-serif;
+  color: #515076;
+}
+
+.catalog__title {
+  margin-bottom: 110px;
+}
