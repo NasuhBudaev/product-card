@@ -2,6 +2,11 @@
   background-color: #F7F7FA;
   padding: 25px;
 }
+/* ИЗМЕНЕНИЕ ЦВЕТА СКРОЛБАРА */
+html {
+    scrollbar-color: red beige;
+}
+
 
 .card__name {
   margin:0px;
