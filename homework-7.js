@@ -12,15 +12,16 @@ function citiesParameters(city, temp) {
   console.log(`Сейчас в городе ${city} температура - ${temp} градусов по Цельсию`);
   return { city, temp };
 }
+// Пример вывода: citiesParameters(city, temp);
+// Покажет: Сейчас в городе Каспийск температура - 20 градусов по Цельсию (в моем конкретном случае)
 
 // начало 4 задания, (!)используются оба вида сравнения
-citiesParameters(city, temp);
-
 let speedComparison = currentSpeed > lightSpeed ? "Сверхсветовая скорость" : "Субсветовая скорость";
 if (currentSpeed === lightSpeed) {
   speedComparison = "Скорость света";
 }
-console.log(speedComparison);
+// Пример вывода: console.log(speedComparison);
+// Покажет: Сверхсветовая скорость (в моем конкретном случае)
 
 //начало 5 задания
 function transaction (budget) {
@@ -33,8 +34,8 @@ function transaction (budget) {
       console.log(`Вам не хватает ${priceProduct - budget}$, пополните баланс`);
   }
 }
-
-transaction(budget);
+// Пример вывода: transaction(budget);
+// Покажет: Хлеб приобретен, спасибо за покупку! (в моем конкретном случае)
 
 // начало 7 задания: совмещено с 6-м заданием.
   const name = "Насух";
@@ -46,5 +47,5 @@ function getName(name, surname, age) {
   console.log(`Меня зовут ${name} ${surname}, мне ${age} лет`);
   return { name, surname, age };
 }
-
-getName(name, surname, age);
+// Пример вывода: getName(name, surname, age);
+// Покажет: Меня зовут Насух Будаев, мне 26 лет
