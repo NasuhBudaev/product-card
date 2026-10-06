@@ -32,11 +32,12 @@ const commentsWithGoogleMail = commentsArray.filter(user => user.email.includes(
 // 8 Задание. Переборка массива и установка новых значений для разделенных групп
 const rebuildingArrays = commentsArray.map(user => {
   if (user.id <= 5) {
-    user.postId = 2;}
-  else
-    {user.postId = 1;}
-    });
-// Пример вывода: console.log(commentsArray);
+      return {...user, postId: 2};
+  } else {
+      return {...user, postId: 1};
+  }
+});
+// Пример вывода: console.log(rebuildingArrays);
 // Покажет: Все элементы массива commentsArray с измененными значениями postId
 
 // 9 Задание. Вывод только id и name из массива commentsArray
